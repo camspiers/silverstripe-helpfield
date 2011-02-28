@@ -1,0 +1,48 @@
+.helpField {
+	background-color:#F7F7F7;
+	border:3px solid #E9E9E9;
+	margin-bottom:3px;
+	padding:2px 4px;
+	width:96%;
+	color:#666666;
+	position:relative;
+	z-index:2;
+	display:none;
+}
+	.helpField.open {
+		display:block;
+	}
+
+.helpFieldButton {
+	display:block;
+	border-bottom:0px;
+	padding:5px 7px;
+	position:absolute;
+		right:-14px;
+		top:-5px;
+	z-index:5;
+	text-decoration:none;
+	font-weight:bold;
+}
+	.helpFieldButton:hover {
+		background-color:#F7F7F7;
+		border:3px solid #E9E9E9;
+		padding:2px 4px;
+		text-decoration:none;
+	}
+	.helpFieldButtona:active {
+		outline: none;
+	}
+
+	.helpFieldButton.open {
+		background-color:#F7F7F7;
+		border:3px solid #E9E9E9;
+		border-bottom:0px;
+		padding:2px 4px 6px 4px;
+		text-decoration:none;
+	}
+
+.helpField p {
+	margin:2px 0 !important;
+	font-size:11px; !important;
+}
